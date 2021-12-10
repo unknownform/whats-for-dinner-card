@@ -1,0 +1,30 @@
+extends layout
+
+block content
+  div.container
+    div.card
+      div.card-header
+        div.backdrop
+        div.card-title Pizza Hut
+        img.card-header-image(src='https://dynl.mktgcdn.com/p/d9AXTJEWMZ156q11dLLVRHsmufNu0K-ng4JYb_4WwRI/1900x1427.jpg')
+      div.card-body
+        div.edit
+          a(href='#') Edit
+        div.card-details
+          div.category Italian
+          div.rating
+            span &#X2b50;
+            span &#X2b50;
+            span &#X2b50;
+        div.description
+            //a single pipe | allows you to type free floating text
+            | Pizza Hut is an American multinational restaurant chain and international franchise founded in 1958 in Wichita,
+            | Kansas by Dan and Frank Carney. It provides pizza and other Italian-American dishes, including pasta, side dishes and desserts.
+            | The chain has 18,703 restaurants worldwide as of December 31, 2019,
+            | making it the world's largest pizza chain in
+            | the number of locations.
+            | It is a subsidiary of Yum! Brands, Inc., one
+            | of the world's largest restaurant
+            | companies.
+
+
